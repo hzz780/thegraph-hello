@@ -7,7 +7,7 @@ export function handleNewGravatar(event: NewGravatar): void {
   gravatar.owner = event.params.owner
   gravatar.displayName = event.params.displayName
   gravatar.imageUrl = event.params.imageUrl
-  gravatar.zzTest = 'hzzTest';
+  gravatar.zzTest = 'hzzTestnewwww';
   gravatar.updateAt = event.block.timestamp;
   gravatar.createdAt = event.block.timestamp;
   gravatar.imageId = updateGravatarImage(true);
